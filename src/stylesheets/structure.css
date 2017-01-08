@@ -59,7 +59,7 @@ span#rss{
 	top: 15px;
 	right : 4px;
 	z-index:200;
-	background: orange;
+	background: #FFC107;
 	padding: 8px;
 	border-radius: 3px;
 }
@@ -93,17 +93,16 @@ div#menuright-header{
 	position: relative;
 	height: 50px;
 	text-align: center;
-	background: #26a69a;
+	background: #2196F3;
 }
 
 /* Header */
 .header {
 	position: relative;
-	margin:auto;
 	overflow:hidden;
     font-family: "Roboto-Regular", sans-serif;
     margin: 0 15px 0 0;
-    background-color: #00bcd4;
+    background-color: #1976D2;
     height: 60px;
     box-shadow: 0 2px 5px rgba(0,0,0,.26);
 }
@@ -169,7 +168,7 @@ div.directory .dirname
 	padding: 5px;
 	min-height: 20px;
 	word-wrap: break-word;
-	background: #00897b;
+	background: #2196F3;
 	left: 0;
 	right: 0;
 	color: white;
@@ -223,7 +222,7 @@ div.linear_panel  .line > .item , div.linear_panel  .line > .item-video {
 
 .line > .item.selected, .line > .item:hover , 
 .line > .item-video.selected , .line > .item-video:hover{
-border-color: rgb(0,136,232);
+border-color: #2196F3;
 }
 
 .dir_img > a,
@@ -371,7 +370,7 @@ li.currentSelected{
 }
 
 li.currentSelected > a{
-	color: #0085be !important;
+	color: #2196F3 !important;
 }
 
 
@@ -395,7 +394,7 @@ div.infos_img > div.infos_title {
 	font-family: "Roboto-Regular", sans-serif;
     font-size: 14px;
     font-weight: 400;
-	background: #00796b;
+	background: #1976D2;
 	color: white;
 	padding: 10px 10px 30px 10px;
 
@@ -413,20 +412,24 @@ div.infos_img > div.infos_title {
     color:#f5f5f5;
     text-align:center;
     text-decoration:none;
-    background: #00acc1;
+    background: #FFC107;
 	box-shadow: 0 2px 5px rgba(0,0,0,.35);
     font-size:20px;
     font-weight:bold;
 }
 
 .floating-action:hover{
-	background: #00838f;
-	}
+	background: #2196F3;
+}
 
 div#deleteform{
 	position: absolute;
 	right: 20px;
 	top: 20px;
+}
+
+.pure-button-primary, .pure-button-selected, a.pure-button-primary, a.pure-button-selecte{
+	background-color: #2196F3 !important;
 }
 
 .infos .pure-g > .pure-u-1-2 > input[type=text] {
