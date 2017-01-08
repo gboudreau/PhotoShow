@@ -31,16 +31,21 @@
 
 // Folder where your pictures are stored.
 // Must be at least readable by web server process
-$config->photos_dir   = "path_to_your_photos_dir_goes_here";
+$config->photos_dir   = "/home/g3data/albums";
 
 // Folder where PhotoShow parameters and thumbnails are stored.
 // Must be writable by web server process
-$config->ps_generated   = "path_where_photoshow_generates_files_goes_here";
+$config->ps_generated   = "/var/www/html/photos.danslereseau.com/generated/";
 
 // Local timezone. Default one is "Europe/Paris".
-#$config->timezone = "Europe/Paris";
+$config->timezone = "America/Montreal";
+
+$config->imagemagick_path = '/usr/bin/convert';
+
+// Cache max age for images (and videos), incl. thumbnails
+$config->cache_max_age = 10*365*24*60*60; // in seconds
 
 // If you want to inject a tracking code (or anything really) in your pages <head>, use this to refer to a file containing that:
-#$config->tracking_code_include = '/path/to/something.html';
+$config->tracking_code_include = '/var/www/html/photos.danslereseau.com/tracking_code.inc.html';
 
 ?>
